@@ -56,7 +56,6 @@ footer {
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
 
 @media (min-width: 768px) {
   header {
@@ -78,11 +77,14 @@ footer {
   footer {
     background-color: grey;
   }
-  
+
+  .col-3 {
+    width: 50%;
+  }
 }
 
-
 /*---------- Desktops ----------*/
+
 @media (min-width: 1200px) {
   header {
     background-color: magenta;
@@ -103,5 +105,8 @@ footer {
   footer {
     background-color: plum;
   }
-   
+
+  .col-3 {
+    width: 33.33%;
+  }
 }
